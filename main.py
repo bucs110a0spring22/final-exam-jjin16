@@ -2,6 +2,11 @@ from class_module import doggo, duckky, foxy
 
 def main():
   while True:
+    """
+    takes user input and depending on the input, shows a random picture of either fox, duck, or dog. Then asks user if they want to see another one of choosen animal. If not then ends the program.
+    arg:none
+    return:none
+    """
     team=input("are u a team dog, team duck, or a team fox person?:")
     if team == "dog" or team=="Dog":
       print("here is a cute picture of a doggo!")
